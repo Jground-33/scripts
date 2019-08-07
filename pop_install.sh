@@ -32,12 +32,17 @@ sudo apt install -y code
 # nvm install script from 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
+
+
+\/ \/ \/ \/ paste into ~/.zshrc file \/ \/ \/ \/ 
 # export the nvm path
 export NVM_DIR="$HOME/.nvm"
 # load nvm
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 # setup nvm bash completion
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+/\ /\ /\ /\ /\ paste into ~/.zshrc file /\ /\ /\ /\ /\ /\  
+
 
 # set up npm to the latest verion
 nvm install node v10.16.0 --lts --latest-npm
@@ -47,6 +52,7 @@ npm i -g create-react-app
 npm i -g express-generator
 npm i -g express-generator-api
 npm i -g nodemon
+npm i -g surge
 
 # set up git so there are no warnings
 git config --global user.email darbyguitars@gmail.com
