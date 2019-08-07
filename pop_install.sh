@@ -1,3 +1,14 @@
+- Slack
+- VS Code
+- Git
+- Node.js
+- PostgreSQL
+- MongoDB
+- Python -- check before download
+- Django
+- Zoom
+
+
 #!/bin/bash
 
 sudo apt update
@@ -15,7 +26,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # ==> ==> ==> Development Tools <== <== <==
 sudo apt install -y mongodb 
 sudo apt install -y postgresql-11 
-sudo apt install -y guake 
+sudo apt install -y guake -- can change quick keys
 sudo apt install -y code
 
 # nvm install script from 
@@ -41,13 +52,13 @@ npm i -g nodemon
 git config --global user.email darbyguitars@gmail.com
 git config --global user.name 'Andrew Murray'
 
-# install snap for snap packages
+# install snap for snap packages -- optional --- research
 sudo apt install snapd
 
 # api testing suite
 snap install postman
 
-# preferred email client
+# preferred email client -- dont need mailspring 
 snap install mailspring
 
 # ==> ==> ==> FUN THINGS <== <== <==
@@ -55,5 +66,5 @@ sudo apt install lolcat
 sudo apt install cowsay
 sudo apt install fortune
 
-source ~/.zshrc
+source ~/.zshrc 
 reboot
