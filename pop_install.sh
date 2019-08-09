@@ -59,18 +59,21 @@ git config --global user.email darbyguitars@gmail.com
 git config --global user.name 'Andrew Murray'
 
 # install snap for snap packages -- optional --- research
-sudo apt install snapd
+ ////  sudo apt install snapd  //////
 
-# api testing suite
-snap install postman
+# api testing suite --- dont use
+////  snap install postman ////
 
 # preferred email client -- dont need mailspring 
-snap install mailspring
+////  snap install mailspring ////
 
 # ==> ==> ==> FUN THINGS <== <== <==
 sudo apt install lolcat
 sudo apt install cowsay
 sudo apt install fortune
+
+#download GIMP photo editor
+https://www.gimp.org/downloads/
 
 source ~/.zshrc 
 reboot
