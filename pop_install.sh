@@ -29,6 +29,9 @@ sudo apt install -y postgresql-11
 sudo apt install -y guake -- can change quick keys
 sudo apt install -y code
 
+# Instructions for installing PostgreSQL 
+ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04
+
 # nvm install script from 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
