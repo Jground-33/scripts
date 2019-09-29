@@ -58,8 +58,8 @@ npm i -g nodemon
 npm i -g surge
 
 # set up git so there are no warnings
-git config --global user.email darbyguitars@gmail.com
-git config --global user.name 'Andrew Murray'
+git config --global user.email <gitHubEmail>
+git config --global user.name <gitHubUsername>
 
 # install snap for snap packages -- optional --- research
  ////  sudo apt install snapd  //////
