@@ -26,25 +26,25 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # ==> ==> ==> Development Tools <== <== <==
 sudo apt install -y mongodb 
 sudo apt install -y postgresql-11 
-sudo apt install -y guake -- can change quick keys
-sudo apt install -y code
+sudo apt install -y guake  #-- optional --can change quick keys
+sudo apt install -y code #installs vsCode
 
 # Instructions for installing PostgreSQL 
- https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04
+ ##https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04
 
 # nvm install script from 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 
 
-\/ \/ \/ \/ paste into ~/.zshrc file \/ \/ \/ \/ 
+##\/ \/ \/ \/ paste into ~/.zshrc file \/ \/ \/ \/ 
 # export the nvm path
 export NVM_DIR="$HOME/.nvm"
 # load nvm
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 # setup nvm bash completion
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-/\ /\ /\ /\ /\ paste into ~/.zshrc file /\ /\ /\ /\ /\ /\  
+##/\ /\ /\ /\ /\ paste into ~/.zshrc file /\ /\ /\ /\ /\ /\  
 
 
 # set up npm to the latest verion
@@ -62,13 +62,10 @@ git config --global user.email <gitHubEmail>
 git config --global user.name <gitHubUsername>
 
 # install snap for snap packages -- optional --- research
- ////  sudo apt install snapd  //////
+  sudo apt install snapd  
 
-# api testing suite --- dont use
-////  snap install postman ////
-
-# preferred email client -- dont need mailspring 
-////  snap install mailspring ////
+# api testing suite --
+  snap install postman
 
 # ==> ==> ==> FUN THINGS <== <== <==
 sudo apt install lolcat
@@ -76,7 +73,7 @@ sudo apt install cowsay
 sudo apt install fortune
 
 #download GIMP photo editor
-https://www.gimp.org/downloads/
+#https://www.gimp.org/downloads/
 
 source ~/.zshrc 
 reboot
