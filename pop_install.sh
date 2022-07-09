@@ -1,4 +1,3 @@
-- Slack
 - VS Code
 - Git
 - Node.js
@@ -15,20 +14,18 @@ sudo apt update
 sudo apt upgrade
 
 # ==> ==> ==> SHELL SETUP <== <== <== 
-sudo apt install zsh
-
-# prefered font
-sudo apt install fonts-firacode
+# sudo apt install zsh
 
 # install oh my zsh for terminal theme
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # ==> ==> ==> Development Tools <== <== <==
-sudo apt install -y mongodb 
-sudo apt install -y postgresql-11 
-sudo apt install -y guake  #-- optional --can change quick keys
-sudo apt install -y code #installs vsCode
-
+sudo apt install git
+sudo snap install node --classic
+sudo apt install mongodb 
+sudo apt install postgresql-12 
+# sudo apt install -y guake  #-- optional --can change quick keys
+# sudo apt install -y code #installs vsCode 
 # Instructions for installing PostgreSQL 
  ##https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04
 
@@ -51,18 +48,18 @@ export NVM_DIR="$HOME/.nvm"
 nvm install node v10.16.0 --lts --latest-npm
 
 # ==> ==> ==> GLOBAL NPM PACKAGES <== <== <== 
-npm i -g create-react-app
-npm i -g express-generator
-npm i -g express-generator-api
-npm i -g nodemon
-npm i -g surge
+sudo npm i -g create-react-app
+sudo npm i -g express-generator
+sudo npm i -g express-generator-api
+sudo npm i -g nodemon
+# sudo npm i -g surge
 
 # set up git so there are no warnings
 git config --global user.email <gitHubEmail>
 git config --global user.name <gitHubUsername>
 
 # install snap for snap packages -- optional --- research
-  sudo apt install snapd  
+#   sudo apt install snapd  
 
 # api testing suite --
   snap install postman
